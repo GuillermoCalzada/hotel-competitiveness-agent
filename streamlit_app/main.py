@@ -7,6 +7,7 @@ from pathlib import Path
 # Agregar src al path
 current_dir = Path(__file__).parent
 src_path = current_dir.parent / "src"
+data_path = current_dir.parent / "data"
 sys.path.insert(0, str(src_path))
 
 # Importar nuestros módulos
@@ -59,6 +60,53 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Función para detectar archivos de ejemplo
+def check_sample_files():
+    """Verificar si existen archivos de ejemplo"""
+    sample_files = {
+        'internal': data_path / 'sample_hound_internal.csv',
+        'external': data_path / 'sample_hound_external.csv', 
+        'extranet': data_path / 'sample_extranet.csv'
+    }
+    
+    existing_files = {}
+    for key, file_path in sample_files.items():
+        if file_path.exists():
+            existing_files[key] = str(file_path)
+    
+    return existing_files
+
+# Función para cargar datos de ejemplo
+def load_sample_data():
+    """Cargar datos de ejemplo automáticamente"""
+    sample_files = check_sample_files()
+    
+    if len(sample_files) == 3:
+        try:
+            dp = DataProcessor()
+            success = dp.load_data(
+                sample_files['internal'],
+                sample_files['external'],
+                sample_files['extranet']
+            )
+            
+            if success:
+                ca = CompetitiveAnalyzer(dp)
+                agent = HotelAgent(dp, ca)
+                
+                st.session_state.data_processor = dp
+                st.session_state.competitive_analyzer = ca
+                st.session_state.agent = agent
+                st.session_state.data_loaded = True
+                st.session_state.using_sample_data = True
+                
+                return True
+        except Exception as e:
+            st.error(f"Error cargando datos de ejemplo: {e}")
+            return False
+    
+    return False
+
 # Título principal
 st.markdown('<h1 class="main-header">🏨 Hotel Competitiveness Agent</h1>', unsafe_allow_html=True)
 
@@ -71,14 +119,31 @@ if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 if 'current_hotel' not in st.session_state:
     st.session_state.current_hotel = None
+if 'using_sample_data' not in st.session_state:
+    st.session_state.using_sample_data = False
 
 # Sidebar para configuración
 with st.sidebar:
     st.header("⚙️ Configuración")
     
-    # Cargar datos
-    st.subheader("📁 Cargar Datos")
+    # Verificar archivos de ejemplo
+    sample_files = check_sample_files()
     
+    if len(sample_files) == 3:
+        st.success("✅ Archivos de ejemplo detectados")
+        
+        if st.button("🎯 Usar Datos de Ejemplo", type="primary", use_container_width=True):
+            if load_sample_data():
+                st.success("✅ Datos de ejemplo cargados!")
+                st.rerun()
+        
+        st.markdown("---")
+        st.subheader("📊 O cargar tus propios datos")
+    else:
+        st.warning(f"⚠️ Faltan archivos de ejemplo ({len(sample_files)}/3 encontrados)")
+        st.subheader("📁 Cargar Datos")
+    
+    # Cargar datos personalizados
     uploaded_internal = st.file_uploader(
         "Hound Internal CSV", 
         type=['csv'],
@@ -97,8 +162,8 @@ with st.sidebar:
         key="extranet"
     )
     
-    # Botón para procesar datos
-    if st.button("🔄 Cargar y Procesar Datos"):
+    # Botón para procesar datos personalizados
+    if st.button("🔄 Cargar Datos Personalizados"):
         if uploaded_internal and uploaded_external and uploaded_extranet:
             try:
                 with st.spinner("Cargando datos..."):
@@ -134,8 +199,9 @@ with st.sidebar:
                         st.session_state.competitive_analyzer = ca
                         st.session_state.agent = agent
                         st.session_state.data_loaded = True
+                        st.session_state.using_sample_data = False
                         
-                        st.success("✅ Datos cargados exitosamente!")
+                        st.success("✅ Datos personalizados cargados!")
                         st.rerun()
                     else:
                         st.error("❌ Error cargando datos")
@@ -147,7 +213,10 @@ with st.sidebar:
     
     # Status
     if st.session_state.data_loaded:
-        st.success("✅ Datos cargados")
+        if st.session_state.using_sample_data:
+            st.success("✅ Usando datos de ejemplo")
+        else:
+            st.success("✅ Datos personalizados cargados")
         
         # Selector de hotel
         if st.session_state.agent:
@@ -177,26 +246,32 @@ if not st.session_state.data_loaded:
         Este agente de IA te ayuda a:
         
         ✅ **Analizar competitividad** de tus hoteles  
+        ✅ **Validar configuración B2B** en extranet
         ✅ **Comparar precios** con competidores  
         ✅ **Identificar oportunidades** por mercado  
         ✅ **Simular impacto** de cambios de precio  
         ✅ **Generar recomendaciones** estratégicas  
         
         **Para empezar:**
-        1. Sube los 3 archivos CSV en la barra lateral
-        2. Haz clic en "Cargar y Procesar Datos"
-        3. ¡Comienza a conversar con el agente!
         """)
+        
+        sample_files = check_sample_files()
+        if len(sample_files) == 3:
+            st.info("🎯 **Opción 1**: Usa el botón 'Usar Datos de Ejemplo' en la sidebar")
+            st.info("📁 **Opción 2**: Sube tus propios archivos CSV")
+        else:
+            st.info("📁 Sube los 3 archivos CSV en la barra lateral")
         
         # Demo de comandos
         with st.expander("📋 Ver comandos disponibles"):
             st.code("""
 # Selección de hotel
-"seleccionar hotel Crown Paradise"
+"seleccionar hotel Paradise Resort"
 "ver hoteles disponibles"
 
 # Análisis
 "análisis de competitividad"
+"configuración b2b"
 "comparar precios"
 "analizar mercados"
 
@@ -218,10 +293,11 @@ else:
         col1, col2, col3, col4 = st.columns(4)
         
         with col1:
+            score = summary.get('competitiveness_score', 0)
             st.metric(
                 "Score Competitividad",
-                f"{summary.get('competitiveness_score', 0)}/100",
-                delta=None
+                f"{score}/100",
+                delta=f"{'Excelente' if score >= 70 else 'Regular' if score >= 50 else 'Crítico'}"
             )
         
         with col2:
@@ -282,7 +358,7 @@ else:
     # Input del usuario
     user_input = st.text_input(
         "Escribe tu consulta aquí...",
-        placeholder="Ej: análisis de competitividad, comparar precios, simular -10%",
+        placeholder="Ej: análisis de competitividad, configuración b2b, simular -10%",
         key="user_input"
     )
     
@@ -293,20 +369,24 @@ else:
     
     with col2:
         # Botones rápidos
-        quick_buttons = st.columns(4)
+        quick_buttons = st.columns(5)
         with quick_buttons[0]:
             if st.button("📊 Competitividad", use_container_width=True):
                 user_input = "análisis de competitividad"
                 send_button = True
         with quick_buttons[1]:
+            if st.button("⚙️ Config B2B", use_container_width=True):
+                user_input = "configuración b2b"
+                send_button = True
+        with quick_buttons[2]:
             if st.button("💰 Precios", use_container_width=True):
                 user_input = "comparar precios"
                 send_button = True
-        with quick_buttons[2]:
+        with quick_buttons[3]:
             if st.button("🌍 Mercados", use_container_width=True):
                 user_input = "analizar mercados"
                 send_button = True
-        with quick_buttons[3]:
+        with quick_buttons[4]:
             if st.button("💡 Tips", use_container_width=True):
                 user_input = "dame recomendaciones"
                 send_button = True
@@ -339,8 +419,14 @@ else:
 
 # Footer
 st.markdown("---")
+
+# Info sobre datos
+if st.session_state.data_loaded:
+    if st.session_state.using_sample_data:
+        st.info("🎯 **Usando datos de ejemplo** - Datos ficticios para demostración. Para análisis real, carga tus propios archivos CSV.")
+
 st.markdown("""
 <div style="text-align: center; color: #666; margin-top: 2rem;">
-    🏨 Hotel Competitiveness Agent | Powered by Streamlit & Python
+    🏨 Hotel Competitiveness Agent v2.0 | Powered by Streamlit & Python
 </div>
 """, unsafe_allow_html=True)
