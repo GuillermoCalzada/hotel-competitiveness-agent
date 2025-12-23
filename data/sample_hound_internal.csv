@@ -1,0 +1,121 @@
+Cartera - oidhotel → cadena,Oid,Nombre_Hotel,eecc,checkin,checkout,PoS,TakeRate,MejorTarifaB2B,faretypebase_B2B,MealPlan_B2B,cancelationbase_B2B,Var_B2B,PamBaseRate ($),ExpBaseRate ($),HBGBaseRate ($),roombase_pam,RoomCompetidor,contractcurrencybase_pam
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,01/01/2024,06/01/2024,AR,30%,GanaPAM,PACKAGE,BB,non_refundable,-7.46%,1135.09,1050.36,1406.23,Ocean View,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,15/01/2024,17/01/2024,AR,25%,GanaExp,PACKAGE,HB,refundable,7.90%,1021.85,1102.61,901.9,Suite,Superior Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,29/01/2024,02/02/2024,AR,31%,GanaExp,PACKAGE,FB,non_refundable,17.32%,308.33,361.73,297.89,Standard Room,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,12/02/2024,15/02/2024,AR,28%,GanaExp,PACKAGE,RO,non_refundable,9.69%,1324.93,1453.28,1386.78,Deluxe Room,Superior Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,26/02/2024,02/03/2024,AR,31%,GanaPAM,PACKAGE,FB,refundable,-7.58%,731.77,676.27,706.47,Ocean View,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,11/03/2024,16/03/2024,AR,26%,GanaExp,PACKAGE,BB,non_refundable,2.17%,466.71,476.82,442.17,Deluxe Room,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,25/03/2024,30/03/2024,AR,32%,GanaExp,PACKAGE,FB,refundable,12.15%,1461.98,1639.66,1794.75,Deluxe Room,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,08/04/2024,11/04/2024,AR,33%,GanaPAM,PACKAGE,FB,non_refundable,-0.94%,735.85,728.89,873.18,Ocean View,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,01/01/2024,03/01/2024,BR,32%,GanaExp,PACKAGE,RO,non_refundable,12.86%,511.39,577.14,464.13,Ocean View,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,15/01/2024,17/01/2024,BR,29%,GanaExp,PACKAGE,BB,refundable,10.38%,1523.19,1681.27,1751.26,Deluxe Room,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,29/01/2024,31/01/2024,BR,31%,GanaExp,PACKAGE,AI,refundable,14.10%,1672.44,1908.27,1749.87,Ocean View,Superior Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,12/02/2024,16/02/2024,BR,25%,GanaExp,PACKAGE,AI,non_refundable,4.28%,1630.82,1700.58,1507.28,Suite,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,26/02/2024,29/02/2024,BR,34%,GanaPAM,PACKAGE,FB,refundable,-6.95%,684.1,636.57,781.89,Suite,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,11/03/2024,16/03/2024,BR,29%,GanaExp,PACKAGE,AI,refundable,4.36%,1643.65,1715.3,1788.96,Suite,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,25/03/2024,30/03/2024,BR,26%,GanaPAM,PACKAGE,BB,refundable,-6.00%,643.2,604.61,634.97,Deluxe Room,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,08/04/2024,13/04/2024,BR,34%,GanaExp,PACKAGE,FB,refundable,3.87%,458.24,475.97,440.29,Suite,Superior Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,01/01/2024,06/01/2024,CL,33%,GanaPAM,PACKAGE,HB,refundable,-2.07%,348.81,341.58,362.07,Deluxe Room,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,15/01/2024,20/01/2024,CL,32%,GanaPAM,PACKAGE,HB,non_refundable,-2.23%,694.59,679.13,642.04,Ocean View,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,29/01/2024,03/02/2024,CL,31%,GanaPAM,PACKAGE,BB,refundable,-6.31%,679.32,636.43,661.62,Standard Room,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,12/02/2024,15/02/2024,CL,30%,GanaPAM,PACKAGE,AI,non_refundable,-7.04%,545.45,507.04,603.01,Standard Room,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,26/02/2024,02/03/2024,CL,31%,GanaPAM,PACKAGE,HB,non_refundable,-4.23%,494.51,473.58,524.72,Suite,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,11/03/2024,15/03/2024,CL,25%,GanaExp,PACKAGE,RO,non_refundable,1.56%,1044.24,1060.56,1163.24,Suite,Superior Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,25/03/2024,30/03/2024,CL,27%,GanaExp,PACKAGE,BB,refundable,14.32%,1007.79,1152.08,1008.4,Suite,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,08/04/2024,11/04/2024,CL,32%,GanaPAM,PACKAGE,RO,refundable,-5.50%,617.25,583.3,757.98,Ocean View,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,01/01/2024,05/01/2024,MX,31%,GanaExp,PACKAGE,FB,non_refundable,16.04%,313.47,363.76,377.62,Deluxe Room,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,15/01/2024,20/01/2024,MX,29%,GanaPAM,PACKAGE,AI,non_refundable,-1.22%,716.64,707.9,894.8,Suite,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,29/01/2024,02/02/2024,MX,28%,GanaExp,PACKAGE,RO,non_refundable,1.08%,539.03,544.85,619.13,Ocean View,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,12/02/2024,16/02/2024,MX,33%,GanaExp,PACKAGE,HB,refundable,12.42%,1135.63,1276.67,1280.46,Standard Room,Superior Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,26/02/2024,04/03/2024,MX,33%,GanaExp,PACKAGE,FB,refundable,6.27%,360.81,383.42,409.88,Ocean View,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,11/03/2024,15/03/2024,MX,25%,GanaPAM,PACKAGE,RO,non_refundable,-3.35%,693.89,670.64,704.71,Ocean View,Deluxe Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,25/03/2024,01/04/2024,MX,27%,GanaPAM,PACKAGE,HB,refundable,-1.10%,567.72,561.44,550.84,Deluxe Room,Standard Room,USD
+Demo Chain Group,999991,Hotel Paradise Resort,demo.user1@example.com,08/04/2024,15/04/2024,MX,27%,GanaExp,PACKAGE,FB,refundable,7.00%,702.64,751.82,746.36,Ocean View,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,01/01/2024,08/01/2024,US,30%,GanaExp,OPAQUE,HB,non_refundable,17.86%,456.76,538.33,481.37,Standard Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,15/01/2024,19/01/2024,US,25%,GanaExp,OPAQUE,FB,refundable,3.13%,2115.6,2181.87,2618.39,Standard Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,29/01/2024,01/02/2024,US,33%,GanaPAM,OPAQUE,BB,refundable,-1.02%,732.96,725.48,776.61,Deluxe Room,Superior Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,12/02/2024,15/02/2024,US,34%,GanaPAM,OPAQUE,BB,non_refundable,-6.17%,2118.78,1988.07,2028.31,Standard Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,26/02/2024,29/02/2024,US,31%,GanaExp,OPAQUE,BB,refundable,10.43%,631.16,697.01,684.53,Deluxe Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,11/03/2024,16/03/2024,US,28%,GanaPAM,OPAQUE,RO,non_refundable,-5.88%,1521.59,1432.14,1341.92,Ocean View,Superior Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,25/03/2024,30/03/2024,US,26%,GanaExp,OPAQUE,BB,non_refundable,15.14%,1867.11,2149.79,1876.56,Suite,Deluxe Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,08/04/2024,15/04/2024,US,30%,GanaExp,OPAQUE,BB,non_refundable,4.11%,442.39,460.55,478.13,Deluxe Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,01/01/2024,06/01/2024,MX,29%,GanaExp,OPAQUE,RO,non_refundable,13.39%,237.35,269.12,240.5,Standard Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,15/01/2024,19/01/2024,MX,31%,GanaExp,OPAQUE,FB,non_refundable,13.89%,657.27,748.58,625.66,Standard Room,Superior Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,29/01/2024,02/02/2024,MX,34%,GanaExp,OPAQUE,BB,refundable,0.40%,716.3,719.14,841.09,Deluxe Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,12/02/2024,14/02/2024,MX,34%,GanaExp,OPAQUE,BB,refundable,3.14%,280.87,289.68,318.72,Suite,Superior Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,26/02/2024,04/03/2024,MX,29%,GanaPAM,OPAQUE,RO,non_refundable,-5.56%,439.79,415.34,416.77,Standard Room,Deluxe Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,11/03/2024,15/03/2024,MX,34%,GanaExp,OPAQUE,HB,refundable,3.33%,857.11,885.63,985.78,Deluxe Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,25/03/2024,30/03/2024,MX,29%,GanaPAM,OPAQUE,FB,non_refundable,-5.61%,541.88,511.46,495.73,Deluxe Room,Superior Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,08/04/2024,15/04/2024,MX,31%,GanaExp,OPAQUE,BB,non_refundable,4.31%,691.62,721.43,652.94,Deluxe Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,01/01/2024,05/01/2024,CO,34%,GanaPAM,OPAQUE,RO,non_refundable,-1.22%,1154.6,1140.55,1022.58,Standard Room,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,15/01/2024,17/01/2024,CO,28%,GanaPAM,OPAQUE,FB,non_refundable,-6.17%,385.62,361.84,431,Suite,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,29/01/2024,02/02/2024,CO,25%,GanaExp,OPAQUE,RO,non_refundable,6.19%,699.39,742.66,859.09,Deluxe Room,Deluxe Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,12/02/2024,15/02/2024,CO,27%,GanaPAM,OPAQUE,BB,refundable,-6.20%,420.53,394.47,385.75,Suite,Standard Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,26/02/2024,29/02/2024,CO,27%,GanaExp,OPAQUE,RO,refundable,2.02%,909.21,927.57,1029.4,Ocean View,Superior Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,11/03/2024,16/03/2024,CO,33%,GanaExp,OPAQUE,AI,refundable,8.35%,952.78,1032.36,1147.78,Standard Room,Superior Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,25/03/2024,29/03/2024,CO,28%,GanaExp,OPAQUE,BB,refundable,6.78%,662.44,707.36,724.11,Suite,Deluxe Room,USD
+Demo Chain Group,999992,Ocean View Grand,demo.user2@example.com,08/04/2024,15/04/2024,CO,31%,GanaExp,OPAQUE,RO,refundable,14.32%,1201.43,1373.46,1247.96,Standard Room,Superior Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,01/01/2024,08/01/2024,AR,27%,GanaExp,STANDALONE,RO,non_refundable,5.14%,1378.19,1448.98,1634.24,Ocean View,Standard Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,15/01/2024,20/01/2024,AR,27%,GanaPAM,STANDALONE,BB,refundable,-5.63%,1381.73,1303.98,1379.17,Ocean View,Standard Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,29/01/2024,05/02/2024,AR,28%,GanaExp,STANDALONE,AI,refundable,7.66%,364.63,392.57,395.58,Ocean View,Standard Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,12/02/2024,15/02/2024,AR,29%,GanaExp,STANDALONE,HB,refundable,16.20%,391.83,455.32,486.06,Standard Room,Deluxe Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,26/02/2024,29/02/2024,AR,25%,GanaExp,STANDALONE,AI,non_refundable,17.18%,1132.29,1326.87,1284.66,Suite,Superior Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,11/03/2024,14/03/2024,AR,26%,GanaPAM,STANDALONE,AI,refundable,-6.11%,1126.21,1057.42,1333.53,Standard Room,Superior Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,25/03/2024,30/03/2024,AR,25%,GanaExp,STANDALONE,RO,refundable,1.73%,1483.3,1508.98,1508.72,Ocean View,Superior Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,08/04/2024,12/04/2024,AR,34%,GanaExp,STANDALONE,BB,refundable,4.52%,1135.23,1186.58,1157.77,Suite,Superior Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,01/01/2024,04/01/2024,BR,28%,GanaPAM,STANDALONE,FB,non_refundable,-7.70%,1038.94,958.89,1094.42,Standard Room,Deluxe Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,15/01/2024,17/01/2024,BR,25%,GanaExp,STANDALONE,RO,non_refundable,11.40%,1273.82,1418.99,1395.91,Standard Room,Superior Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,29/01/2024,05/02/2024,BR,29%,GanaExp,STANDALONE,AI,refundable,12.85%,954.5,1077.2,1185.32,Ocean View,Standard Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,12/02/2024,14/02/2024,BR,25%,GanaExp,STANDALONE,RO,refundable,10.08%,679.49,747.98,616.91,Deluxe Room,Superior Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,26/02/2024,29/02/2024,BR,32%,GanaExp,STANDALONE,FB,non_refundable,11.16%,876.3,974.14,1067.9,Ocean View,Standard Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,11/03/2024,14/03/2024,BR,26%,GanaPAM,STANDALONE,FB,non_refundable,-3.11%,716.07,693.81,753,Standard Room,Standard Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,25/03/2024,27/03/2024,BR,25%,GanaExp,STANDALONE,AI,non_refundable,3.78%,689.92,716.03,615.38,Standard Room,Standard Room,USD
+Demo Chain Group,999993,Mountain Lodge Premium,demo.user3@example.com,08/04/2024,12/04/2024,BR,29%,GanaPAM,STANDALONE,RO,non_refundable,-6.02%,499.78,469.7,613.73,Deluxe Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,01/01/2024,03/01/2024,BR,30%,GanaPAM,PACKAGE,RO,non_refundable,-6.82%,1599.1,1489.97,1422.8,Ocean View,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,15/01/2024,19/01/2024,BR,25%,GanaExp,PACKAGE,AI,refundable,7.45%,525.63,564.77,536.63,Deluxe Room,Standard Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,29/01/2024,03/02/2024,BR,25%,GanaPAM,PACKAGE,AI,refundable,-0.89%,922.23,914.01,830.8,Standard Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,12/02/2024,15/02/2024,BR,34%,GanaExp,PACKAGE,HB,refundable,7.21%,1669.75,1790.2,1917.98,Standard Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,26/02/2024,02/03/2024,BR,25%,GanaPAM,PACKAGE,RO,non_refundable,-1.46%,607.57,598.68,596.42,Ocean View,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,11/03/2024,14/03/2024,BR,30%,GanaPAM,PACKAGE,HB,refundable,-5.05%,837.24,794.98,944.81,Deluxe Room,Standard Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,25/03/2024,27/03/2024,BR,25%,GanaExp,PACKAGE,AI,refundable,6.58%,1127.86,1202.12,1358.35,Deluxe Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,08/04/2024,11/04/2024,BR,30%,GanaExp,PACKAGE,BB,non_refundable,15.48%,1507.57,1740.97,1670.97,Deluxe Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,01/01/2024,03/01/2024,CL,30%,GanaPAM,PACKAGE,RO,non_refundable,-5.63%,849.17,801.33,975.5,Suite,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,15/01/2024,20/01/2024,CL,34%,GanaExp,PACKAGE,RO,non_refundable,14.42%,924.85,1058.22,1138.79,Standard Room,Standard Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,29/01/2024,02/02/2024,CL,27%,GanaExp,PACKAGE,RO,refundable,4.81%,1327.54,1391.37,1329.71,Suite,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,12/02/2024,17/02/2024,CL,32%,GanaExp,PACKAGE,RO,refundable,10.14%,675.34,743.81,639.29,Ocean View,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,26/02/2024,01/03/2024,CL,27%,GanaExp,PACKAGE,AI,refundable,17.30%,804.64,943.85,887.29,Deluxe Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,11/03/2024,13/03/2024,CL,34%,GanaPAM,PACKAGE,BB,refundable,-5.69%,424.14,399.99,392.17,Deluxe Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,25/03/2024,27/03/2024,CL,30%,GanaPAM,PACKAGE,HB,refundable,-6.98%,1001.69,931.8,1177.77,Ocean View,Standard Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,08/04/2024,12/04/2024,CL,28%,GanaExp,PACKAGE,BB,non_refundable,14.58%,227.92,261.14,207.7,Suite,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,01/01/2024,05/01/2024,CO,31%,GanaExp,PACKAGE,HB,refundable,11.43%,703.94,784.43,629.02,Suite,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,15/01/2024,19/01/2024,CO,27%,GanaPAM,PACKAGE,RO,refundable,-7.21%,1008.97,936.24,1211.64,Standard Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,29/01/2024,03/02/2024,CO,33%,GanaExp,PACKAGE,RO,refundable,13.86%,811.71,924.2,741.1,Ocean View,Standard Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,12/02/2024,17/02/2024,CO,30%,GanaExp,PACKAGE,BB,refundable,12.52%,934.05,1050.97,994.22,Ocean View,Standard Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,26/02/2024,02/03/2024,CO,34%,GanaExp,PACKAGE,BB,refundable,1.85%,812.24,827.25,816.18,Ocean View,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,11/03/2024,18/03/2024,CO,30%,GanaExp,PACKAGE,FB,non_refundable,7.75%,1260.67,1358.38,1220.05,Suite,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,25/03/2024,29/03/2024,CO,27%,GanaPAM,PACKAGE,AI,non_refundable,-3.49%,515.41,497.41,624.58,Ocean View,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,08/04/2024,10/04/2024,CO,32%,GanaExp,PACKAGE,HB,non_refundable,6.98%,1165.15,1246.43,1420.82,Standard Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,01/01/2024,06/01/2024,PE,29%,GanaExp,PACKAGE,BB,non_refundable,6.86%,851.36,909.78,837.39,Ocean View,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,15/01/2024,17/01/2024,PE,34%,GanaExp,PACKAGE,AI,non_refundable,11.14%,449.45,499.52,483.62,Suite,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,29/01/2024,01/02/2024,PE,32%,GanaExp,PACKAGE,BB,refundable,5.85%,766.28,811.09,689.02,Suite,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,12/02/2024,14/02/2024,PE,29%,GanaExp,PACKAGE,RO,refundable,0.38%,1338.71,1343.81,1579.21,Standard Room,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,26/02/2024,28/02/2024,PE,29%,GanaExp,PACKAGE,FB,non_refundable,7.76%,757.31,816.07,889,Deluxe Room,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,11/03/2024,15/03/2024,PE,27%,GanaExp,PACKAGE,RO,non_refundable,17.76%,1274.56,1500.97,1218.28,Ocean View,Superior Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,25/03/2024,01/04/2024,PE,27%,GanaExp,PACKAGE,AI,refundable,12.32%,279.11,313.49,331.11,Standard Room,Deluxe Room,USD
+Demo Chain Group,999994,City Center Boutique,demo.user4@example.com,08/04/2024,15/04/2024,PE,34%,GanaExp,PACKAGE,RO,non_refundable,5.60%,973.35,1027.85,985.77,Ocean View,Deluxe Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,01/01/2024,03/01/2024,MX,31%,GanaExp,OPAQUE,RO,refundable,15.39%,913.78,1054.43,1015.14,Standard Room,Standard Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,15/01/2024,19/01/2024,MX,31%,GanaExp,OPAQUE,HB,non_refundable,5.83%,591.48,625.96,535.08,Deluxe Room,Deluxe Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,29/01/2024,05/02/2024,MX,25%,GanaExp,OPAQUE,FB,non_refundable,0.71%,827.71,833.56,771.04,Suite,Deluxe Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,12/02/2024,19/02/2024,MX,31%,GanaPAM,OPAQUE,RO,non_refundable,-4.06%,988.6,948.5,983.99,Ocean View,Superior Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,26/02/2024,04/03/2024,MX,28%,GanaExp,OPAQUE,AI,non_refundable,4.84%,914.06,958.34,1059.6,Ocean View,Deluxe Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,11/03/2024,16/03/2024,MX,26%,GanaPAM,OPAQUE,HB,refundable,-4.10%,997.3,956.38,962.21,Suite,Deluxe Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,25/03/2024,30/03/2024,MX,34%,GanaExp,OPAQUE,BB,non_refundable,10.62%,765.51,846.81,843.32,Suite,Superior Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,08/04/2024,13/04/2024,MX,28%,GanaExp,OPAQUE,FB,refundable,5.15%,786.23,826.75,869.76,Ocean View,Standard Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,01/01/2024,04/01/2024,US,33%,GanaPAM,OPAQUE,HB,refundable,-4.03%,1701.07,1632.45,1859.66,Deluxe Room,Standard Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,15/01/2024,22/01/2024,US,34%,GanaExp,OPAQUE,FB,non_refundable,3.72%,2110.44,2188.99,1945.61,Suite,Standard Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,29/01/2024,05/02/2024,US,33%,GanaExp,OPAQUE,AI,refundable,0.10%,997.77,998.75,961.99,Deluxe Room,Standard Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,12/02/2024,14/02/2024,US,34%,GanaExp,OPAQUE,HB,non_refundable,0.67%,383.69,386.26,394.17,Deluxe Room,Deluxe Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,26/02/2024,01/03/2024,US,27%,GanaExp,OPAQUE,RO,refundable,11.18%,1025.54,1140.14,1074.07,Ocean View,Superior Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,11/03/2024,15/03/2024,US,30%,GanaExp,OPAQUE,BB,non_refundable,0.10%,438.52,438.95,512.54,Deluxe Room,Standard Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,25/03/2024,30/03/2024,US,30%,GanaExp,OPAQUE,FB,refundable,17.36%,1340.95,1573.79,1407.76,Standard Room,Standard Room,USD
+Demo Chain Group,999995,Beachfront Luxury,demo.user5@example.com,08/04/2024,12/04/2024,US,32%,GanaExp,OPAQUE,HB,non_refundable,0.06%,936.74,937.29,962.04,Ocean View,Superior Room,USD

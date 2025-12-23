@@ -1,0 +1,6 @@
+Portafolio,Ejecutivo,Manager,Cadena,OIDChar,Hotel,Rate_type,Cancel_policy,Rateplan_name,Api_Tildado,HTML_Tildado,availableWrapper,PrepagoActivo,Disponibilidad,Pos_Tildado,Destino,Pais
+Demo Portfolio,demo.executive1@example.com,demo.manager1@example.com,Demo Chain Group,999991,Hotel Paradise Resort,PACKAGE,REF,Hotel Paradise Resort - Demo Plan,Sí,Sí,1,Sí,0.95,"AR, BR, CL, MX",Demo Destination 1,demo country
+Demo Portfolio,demo.executive2@example.com,demo.manager2@example.com,Demo Chain Group,999992,Ocean View Grand,OPAQUE,REF,Ocean View Grand - Demo Plan,Sí,Sí,1,Sí,0.99,"US, MX, CO",Demo Destination 2,demo country
+Demo Portfolio,demo.executive3@example.com,demo.manager3@example.com,Demo Chain Group,999993,Mountain Lodge Premium,STANDALONE,REF,Mountain Lodge Premium - Demo Plan,No,Sí,0,No,0.73,"AR, BR",Demo Destination 3,demo country
+Demo Portfolio,demo.executive4@example.com,demo.manager4@example.com,Demo Chain Group,999994,City Center Boutique,PACKAGE,REF,City Center Boutique - Demo Plan,Sí,Sí,1,Sí,0.93,"BR, CL, CO, PE",Demo Destination 4,demo country
+Demo Portfolio,demo.executive5@example.com,demo.manager5@example.com,Demo Chain Group,999995,Beachfront Luxury,OPAQUE,REF,Beachfront Luxury - Demo Plan,No,No,1,No,0.82,"MX, US",Demo Destination 5,demo country
